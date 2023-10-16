@@ -1,0 +1,237 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0, #120c56, #000000);
+    color: rgb(254, 249, 249);
+}
+
+.stars {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.stars {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 500px 350px white,
+        20px 200px white,
+        120px 390px white,
+        470px 520px white,
+        550px 190px white,
+        80px 550px white,
+        300px 150px white,
+        160px 330px white,
+        350px 450px white,
+        280px 600px white,
+        120px 100px white;
+}
+
+.stars::after {
+    content: " ";
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 500px 350px white,
+        20px 200px white,
+        120px 390px white,
+        470px 520px white,
+        550px 190px white,
+        80px 550px white,
+        300px 150px white,
+        160px 330px white,
+        350px 450px white,
+        280px 600px white,
+        120px 100px white;
+}
+
+.stars {
+    position: relative;
+    width: 3px;
+    height: 3px;
+}
+
+.stars::after {
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 3px;
+}
+
+.stars2 {
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 150px 400px white,
+        400px 350px white,
+        540px 580px white,
+        560px 200px white,
+        275px 280px white,
+        600px 118px white,
+        600px 590px white,
+        300px 130px white,
+        220px 115px white;
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars2::after {
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 600px 350px white,
+        485px 35px white,
+        350px 280px white,
+        90px 120px white,
+        275px 480px white,
+        230px 10px white,
+        120px 130px white,
+        300px 130px white,
+        220px 115px white;
+}
+
+
+
+.stars3 {
+    position: relative;
+    margin-left: 650px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 150px 400px white,
+        400px 350px white,
+        540px 580px white,
+        560px 200px white,
+        275px 280px white,
+        600px 118px white,
+        600px 590px white,
+        300px 130px white,
+        220px 115px white;
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars3::after {
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 600px 350px white,
+        485px 35px white,
+        350px 280px white,
+        90px 120px white,
+        275px 480px white,
+        230px 10px white,
+        120px 130px white,
+        300px 130px white,
+        220px 115px white;
+}
+
+.stars4 {
+    position: relative;
+    margin-top: -300px;
+    margin-left: 650px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 500px 350px white,
+        20px 200px white,
+        120px 390px white,
+        470px 520px white,
+        550px 190px white,
+        80px 550px white,
+        300px 150px white,
+        160px 330px white,
+        350px 450px white,
+        280px 600px white,
+        120px 100px white;
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars4::after {
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 600px 350px white,
+        485px 35px white,
+        350px 280px white,
+        90px 120px white,
+        275px 480px white,
+        230px 10px white,
+        120px 130px white,
+        300px 130px white,
+        220px 115px white;
+}
+
+
+
+.container {
+    margin: 80px auto;
+    text-align: center;
+    max-width: 300px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5;
+}
+
+button {
+    height: 2.3em;
+    width: 5.5em;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.init-btn {
+    background-color: rgb(10, 4, 96);
+}
+
+.init-btn:hover {
+    background-color: #eed7c5;
+    color: #775eb3;
+    box-shadow: 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5;
+}
+
+.pause-btn {
+    background-color: rgb(58, 32, 141);
+}
+
+.pause-btn:hover {
+    background-color: #eed7c5;
+    color: #775eb3;
+    box-shadow: 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5;
+}
+
+.stop-btn {
+    background-color: rgb(7, 5, 59);
+}
+
+.stop-btn:hover {
+    background-color: #eed7c5;
+    color: #775eb3;
+    box-shadow: 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5, 0 0 10px #eed7c5;
+}
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+.stars {
+    animation: anim-stars 15s linear infinite;
+}
